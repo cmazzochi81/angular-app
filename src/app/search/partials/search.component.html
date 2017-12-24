@@ -1,0 +1,16 @@
+<div class="paintingsearch">
+  <div class="card search">
+    <h1 >Répertoire des Oeuvres</h1>
+    <input [(ngModel)]="query" placeholder='Type "Stegostarus" or "Color Explosion"...'>
+      <label>search <span *ngIf="query"> for: {{query}}</span></label>
+  </div>
+</div>
+
+<ul *ngIf="query" class="paintingslist cf">
+  <li (click)="showPainting(item); query='';" 
+      class="painting cf" *ngFor="let item of (paintings) | find:query">
+    <painting-item class="content" [painting]=item></painting-item>
+  </li>
+</ul>
+
+<painting-details *ngIf="currentPainting" [painting]="currentPainting"></painting-details>

@@ -1,0 +1,125 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-image: url('assets/images/colorExplosion.jpg');
+    /*background-color:#F1F1F1;*/
+    background-size: cover;
+    padding: 4em 0;
+    font-family: 'Raleway';
+}
+
+#location ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: red;
+  }
+ #location ::-moz-placeholder { /* Firefox 19+ */
+    color: red;
+  }
+ #location :-ms-input-placeholder { /* IE 10+ */
+    color: red;
+  }
+ #location :-moz-placeholder { /* Firefox 18- */
+    color: red;
+  }
+
+#blogcontent{
+    border: 3px solid blue;
+}
+.paintingsearch{
+    width:500px;
+    border: 3px solid yellow;
+    margin: 0 auto; 
+}
+
+.article-container {
+    background:#fff;
+    /*border-left: 10px solid #093F68;*/
+    /*padding: 2em 0;*/
+}
+
+.article-container a {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1em;
+    color: #0099FF;
+}
+
+.article-container p {
+    color: #737373;
+}
+
+.row.expanded{
+    border: 2px solid red;
+    width:100%;
+}
+
+
+.forecast {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    /*height: 350px;*/
+    width: 250px;
+    border: 2px solid green;
+    float:right;
+    margin-right: 10%;
+    margin-top:50px;
+}
+
+.forecast p {
+    text-align: center;
+    margin: 0.4em;
+}
+
+.forecast img {
+    display: inline-block;
+    width: 1.8em;
+    height: 1.8em;
+    vertical-align: bottom;
+}
+
+.forecast .prefs{
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+
+.forecast .prefs h3 {
+    background-color: black;
+    padding: 0.2em;
+    text-align: center;
+    color: #fff;
+}
+
+.forecast .prefs {
+    border: 1px solid white;
+    text-align: center;
+}
+
+.forecast .prefs .hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.forecast .prefs form div {
+    display: inline-block;
+}
+
+.forecast .prefs .conditions .city {
+    font-weight: bold;
+}
+
