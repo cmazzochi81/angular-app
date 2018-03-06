@@ -11,7 +11,7 @@ const api = require('./server/routes/api');
 // Setup parsers for hanlding incoming request data.
 app.use(bodyParser.json());
 
-//Tells the parser not to accept an nested objects.
+//Tells the parser not to accept any nested objects.
 app.use(bodyParser.urlencoded({ extended: false}));
 
 //Telling Express to serve static files from Angular's distribution or 'dist' folder. 
