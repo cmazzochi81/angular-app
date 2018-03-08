@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Blogapp</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!--<link media="all" type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation-flex.min.css">-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,700" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  
+</head>
+<body>
+    <div class="forecast">
+        <div class="prefs">
+          <form>
+            <h3>Weather</h3>
+            <div>
+              <label for="location" class="hidden">Location</label>
+              <input id="location" placeholder="Enter any city in the world">
+            </div>
+            <div class="button">
+              <input type="submit" value="Get Forecast" class="forecast-button">
+            </div>
+            <div class="conditions"></div>
+          </form>  
+        </div><!-- prefs -->
+      </div><!-- forecast -->
+  <app-root></app-root>
+  <!--<script src="js/script.js" type="text/javascript"></script>-->
+
+  <script>
+  "use strict";
+
+(function() {
+	const url = "http://api.openweathermap.org/data/2.5/weather?q=";
+	const apiKey = "ee46f0e6cb7271730e87ce92332b7e35";  
+	let state = {};
+	
+	// get weather data when user clicks Forecast button, then add 
+	//temp & conditions to view
+	document.querySelector('.forecast-button').addEventListener('click', function(e) {
+		e.preventDefault();
+
+		const location = document.querySelector('#location').value;
+
+		document.querySelector('#location').value = '';
+
+		fetch(url + location + '&appid=' + apiKey).then(function(response) {
+			return(response.json());
+		}).then(function(response) {
+			updateUISuccess(response);
+		}).catch(function() {
+			updateUIFailure();
+		});
+	}, false);
+
+	// handle ajax success
+	function updateUISuccess(response) {
+		const degC = response.main.temp - 273.15;
+		const degCInt = Math.floor(degC);
+		const degF = degC * 1.8 + 32;
+		const degFInt = Math.floor(degF);
+		state = {
+			condition: response.weather[0].main,
+			icon: "http://openweathermap.org/img/w/" + response.weather[0].icon + ".png",
+			degCInt: Math.floor(degCInt),
+			degFInt: Math.floor(degFInt),
+			city: response.name
+		};
+
+		const into = document.querySelector('.conditions');
+		let container = document.createElement('div');
+		let cityPara = document.createElement('p');
+		cityPara.setAttribute('class','city');
+		cityPara.textContent = state.city;
+		let conditionsPara = document.createElement('p');
+		conditionsPara.textContent = `${state.degCInt}\u00B0 C / ${state.degFInt}\u00B0 F`;
+		let iconImage = document.createElement('img');
+		iconImage.setAttribute('src', state.icon);
+		iconImage.setAttribute('alt', state.condition);
+		conditionsPara.appendChild(iconImage);
+		container.appendChild(cityPara);
+		container.appendChild(conditionsPara);
+		if (document.querySelector('.conditions div')) {
+			into.replaceChild(container, document.querySelector('.conditions div'));
+		} else {
+			into.appendChild(container);
+		}
+	}
+
+	// handle ajax failure
+	function updateUIFailure() {
+//		$(".conditions").text("Weather information unavailable");
+		document.querySelector(".conditions").textContent = "Weather information unavailable";
+	}
+})();
+  </script>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+</html>
