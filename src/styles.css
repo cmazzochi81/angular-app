@@ -152,13 +152,16 @@ body {
 }
 
 @media only screen and (device-width: 768px) {
+    body{
+        background: url('assets/images/colorExplosion.jpg') center cover; 
+    }
     .forecast{
         margin-right:36%;
         margin-bottom:20px;
     }
 
     .article-container{
-        width:100% !important;
+        width:75% !important;
     }
 
 }
