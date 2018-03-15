@@ -144,7 +144,18 @@ body {
 /* End hide from IE-mac */ 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 374px){
-.paintingsearch{
-    width:100%;
+    .paintingsearch{
+        width:100%;
+        }
+    .article-container{
+        width:100%;
     }
+}
+
+@media only screen and (device-width: 768px) {
+    .forecast{
+        margin-right:36%;
+        margin-bottom:20px;
+    }
+
 }
