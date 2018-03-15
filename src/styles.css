@@ -51,6 +51,8 @@ body {
 .row.expanded{
     border: 2px solid red;
     width:100%;
+    margin-right:0px;
+    margin-left:0px;
 }
 
 
