@@ -11,8 +11,8 @@
 
 @media only screen and (min-width: 1200px){
 	.row {
-		margin-right:0px;
-		margin-left:0px;
+		margin-right:0px !important;
+		margin-left:0px !important;
 	}
 
 	}
