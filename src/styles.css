@@ -26,8 +26,8 @@ body {
 }
 .paintingsearch{
     width:500px;
-    border: 3px solid yellow;
-    margin: 0 auto; 
+    border: 3px solid blue;
+    margin: 40px auto; 
 }
 
 .article-container {
