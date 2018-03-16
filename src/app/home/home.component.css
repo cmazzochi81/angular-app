@@ -8,11 +8,11 @@
         display:block;
     }
 
-    textarea{
-        margin-left:18.8%;
-        width:100%;
-        min-height:200px;
-    }
+textarea{
+    margin-left:18.8%;
+    width:100%;
+    min-height:200px;
+}
 
 .article-container a {
     text-transform: uppercase;

@@ -1,0 +1,13 @@
+.article-container{
+	width:50%;
+	margin:0 auto;
+	background:#fff;
+}
+#articleTitle{
+        display:block;
+    }
+textarea{
+    margin-left:18.8%;
+    width:50%;
+    min-height:200px;
+}
