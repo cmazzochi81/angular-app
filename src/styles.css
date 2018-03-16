@@ -128,7 +128,7 @@ body {
         width:100% !important;
     }
     .paintinginfo{
-        width:100%;
+        width:100% !important;
     }
 
     .forecast{
@@ -145,7 +145,7 @@ body {
         margin-bottom:20px;
     }
     .paintinginfo{
-        width:75%;
+        width:75% !important;
     }
     .article-container{
         width:75% !important;
