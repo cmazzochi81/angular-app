@@ -1,11 +1,12 @@
 .paintinginfo {
   position: absolute;
   background: white;
-  width: 100%;
+  width: 80%;
   max-width: 850px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  margin-bottom:20px;
   padding: 10px 40px;
   position: relative;
   opacity: 1;
