@@ -12,11 +12,9 @@
 	display:block;
 }
 textarea{
-    margin-left:18.8%;
     width:100%;
     min-height:200px;
 }
 #createArt{
-	border: 1px solid #000;
 	width:100%;
 }
