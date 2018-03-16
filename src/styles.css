@@ -149,6 +149,10 @@ body {
     .article-container{
         width:100% !important;
     }
+
+    .forecast{
+        margin-bottom:20px;
+    }
 }
 
 @media only screen and (device-width: 768px) {
