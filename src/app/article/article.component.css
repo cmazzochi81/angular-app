@@ -12,3 +12,32 @@ p {
     margin-bottom: 10px;
 }
 
+.article-container{
+	width:50%;
+	margin:0 auto;
+	background:#fff;
+    padding:20px;
+}
+
+#articleTitle{
+        display:block;
+    }
+
+textarea{
+    margin-left:18.8%;
+    width:100%;
+    min-height:200px;
+}
+
+.article-container a {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1em;
+    color: #0099FF;
+}
+
+.article-container p {
+    color: #737373;
+}
+
