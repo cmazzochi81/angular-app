@@ -19,6 +19,10 @@ p {
     padding:20px;
 }
 
+.article-container .edit .delete{
+	font-size:1em;
+}
+
 #articleTitle{
         display:block;
     }
