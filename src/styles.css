@@ -2,7 +2,6 @@
 
 body {
     background-image: url('assets/images/colorExplosion.jpg');
-    /*background-color:#F1F1F1;*/
     background-size: cover;
     padding: 4em 0;
     font-family: 'Raleway';
@@ -27,24 +26,6 @@ body {
 .paintingsearch{
     width:500px;
     margin: 40px auto; 
-}
-
-.article-container {
-    background:#fff;
-    /*border-left: 10px solid #093F68;*/
-    /*padding: 2em 0;*/
-}
-
-.article-container a {
-    text-transform: uppercase;
-    font-size: 2.5em;
-    font-weight: bold;
-    line-height: 1em;
-    color: #0099FF;
-}
-
-.article-container p {
-    color: #737373;
 }
 
 .row.expanded{
@@ -166,6 +147,7 @@ body {
 
     .article-container{
         width:75% !important;
+        margin: 0 auto;
     }
 
 }

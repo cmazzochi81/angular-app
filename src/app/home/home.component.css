@@ -1,5 +1,18 @@
 .article-container{
 	width:50%;
 	margin:0 auto;
+	background:#fff;
+}
+
+.article-container a {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1em;
+    color: #0099FF;
+}
+
+.article-container p {
+    color: #737373;
 }
 
