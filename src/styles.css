@@ -148,6 +148,21 @@ body {
     .article-container{
         width:75% !important;
         margin: 0 auto;
+        background-color:#fff;
+    }
+
+    #articleTitle{
+        display:block;
+    }
+
+    textarea{
+        margin-left:18.8%;
+        width:100%;
+        min-height:200px;
+    }
+
+    .cta-btn{
+        margin-left:20%;
     }
 
 }
