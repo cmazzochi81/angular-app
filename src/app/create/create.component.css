@@ -2,10 +2,15 @@
 	width:50%;
 	margin:0 auto;
 	background:#fff;
+	padding:20px;
 }
 #articleTitle{
-        display:block;
-    }
+    display:block;
+}
+
+#descriptionLabel {
+	display:block;
+}
 textarea{
     margin-left:18.8%;
     width:50%;

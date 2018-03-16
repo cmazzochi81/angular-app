@@ -14,7 +14,7 @@
             You must specify a title that's at least 10 characters long.
           </div>
   
-          <label>Description</label>
+          <label id="descriptionLabel">Description</label>
             <textarea name="content" id="content" required [formControl]="articleFrm.controls['content']" formControlName="content"></textarea>
           <div class="alert" *ngIf="!articleFrm.controls['content'].valid && articleFrm.controls['content'].touched">
             You must specify content that's at least 10 characters long.

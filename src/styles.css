@@ -49,9 +49,7 @@ body {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    /*height: 350px;*/
     width: 250px;
-    border: 2px solid green;
     float:right;
     margin-right: 10%;
     margin-top:50px;
