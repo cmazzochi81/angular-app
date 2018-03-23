@@ -8,4 +8,15 @@ import {Painting} from './painting';
   styleUrls: ['css/search-details.css']
 })
 
-export class PaintingDetailsComponent{}
+export class PaintingDetailsComponent{
+	
+	isHidden: boolean;
+	constructor(){
+		this.isHidden = true;
+	}
+	onClick(): void{
+	console.log('button clicked yo');
+	this.isHidden = !this.isHidden;
+	}
+
+}

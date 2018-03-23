@@ -67,5 +67,9 @@
 		document.querySelector(".conditions").textContent = "Weather information unavailable";
 	}
 
+	function removeCard{
+		
+	}
+
 	
 })();
