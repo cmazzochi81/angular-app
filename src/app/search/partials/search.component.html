@@ -13,4 +13,8 @@
   </li>
 </ul>
 
-<painting-details *ngIf="currentPainting" [painting]="currentPainting"></painting-details>
+<painting-details 
+	*ngIf="currentPainting" 
+	[painting]="currentPainting"
+	(onHide)="resetCurrentPainting()"
+></painting-details>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 import {Painting} from './painting';
 
 @Component({
@@ -9,7 +9,7 @@ import {Painting} from './painting';
 })
 
 export class PaintingDetailsComponent{
-	
+	@Output() onHide = new EventEmitter();
 	isHidden: boolean;
 	constructor(){
 		this.isHidden = true;
@@ -17,6 +17,7 @@ export class PaintingDetailsComponent{
 	onClick(): void{
 	console.log('button clicked yo');
 	this.isHidden = !this.isHidden;
+	this.onHide.emit();
 	}
 
 }

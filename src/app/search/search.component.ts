@@ -19,6 +19,10 @@ export class SearchComponent{ //implements OnInit {
       this.currentPainting = item;
     }
 
+    resetCurrentPainting(){
+      this.currentPainting = null;
+    }
+
 //   constructor() { }
 
 //   ngOnInit() { 
