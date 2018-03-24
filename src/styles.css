@@ -121,10 +121,6 @@ body {
 /* End hide from IE-mac */ 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 374px){
-    .paintingsearch{
-        width:100%;
-        }
-    
     .paintinginfo{
         width:100% !important;
     }
