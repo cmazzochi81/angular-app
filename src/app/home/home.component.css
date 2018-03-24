@@ -5,9 +5,7 @@
     padding:20px;
 }
 
-#articleTitle{
-        display:block;
-    }
+#articleTitle{display:block;}
 
 textarea{
     margin-left:18.8%;
@@ -23,7 +21,4 @@ textarea{
     color: #0099FF;
 }
 
-.article-container p {
-    color: #737373;
-}
-
+.article-container p {color: #737373;}

@@ -1,6 +1,3 @@
-
-/* Search Styles */
-
 .search {
     width: 100%;
     min-width: 320px;
@@ -51,12 +48,6 @@
   :-moz-placeholder { /* Firefox 18- */
     color: red;
   }
-
-
-  /* #location input::placeholder {
-    color:red;
-  } */
-  /* Artist List Styles */
   
   .paintingslist {
     position: absolute;
@@ -102,23 +93,20 @@
     transform: scale(1.2);
   }
 
-  @media only screen and (min-device-width : 320px) and (max-device-width : 374px){
+@media only screen and (min-device-width : 320px) and (max-device-width : 374px){
     
-    .search input{
-      font-size: .80rem;
-    }
+  .search input{font-size: .80rem;}
 
   .search {
       width: 98%;
       margin: 0 auto;
       padding: 20px 30px;
       z-index: 20;
+      min-width:none;
   }
 
   .paintingsearch{
     margin: 20px auto; 
-}
-
-  
-}
-  
+    width:98%;
+    } 
+}  

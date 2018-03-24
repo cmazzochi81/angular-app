@@ -121,9 +121,7 @@ body {
 /* End hide from IE-mac */ 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 374px){
-    .paintinginfo{
-        width:100% !important;
-    }
+    .paintinginfo{width:100% !important;}
 
     .forecast{
         width:98%;
@@ -138,12 +136,7 @@ body {
         text-align:center;
     }
 
-    input.forecast-button{
-        margin-bottom:5px;
-    }
-
-
-    
+    input.forecast-button{margin-bottom:5px;} 
 }
 
 @media only screen and (device-width: 768px) {
@@ -156,9 +149,7 @@ body {
         margin-bottom:20px;
         margin-top:60px;
     }
-    .paintinginfo{
-        width:75% !important;
-    }
+    .paintinginfo{width:75% !important;}
     .article-container{
         width:75% !important;
         margin: 0 auto;
@@ -166,17 +157,12 @@ body {
         padding:20px;
     }
 
-    #articleTitle{
-        display:block;
-    }
+    #articleTitle{display:block;}
 
     textarea{
         width:100%;
         min-height:200px;
     }
 
-    .cta-btn{
-        margin-left:20%;
-    }
-
+    .cta-btn{margin-left:20%;}
 }

@@ -57,13 +57,9 @@ textarea{
 .article-container p {color: #737373;}
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 374px){
-    #articleTitle{
-    font-size: 1.3em;
-    }
+    #articleTitle{font-size: 1.3em;}
 
-    .article-container{
-        width:98% !important;
-    }
+    .article-container{width:98% !important;}
 
     .btns {
         font-size:.8em;
@@ -78,9 +74,7 @@ textarea{
         text-align:center;
     }
 
-    p{
-        margin-top:.2em;
-    }
+    p{margin-top:.2em;}
 }
 
 @media only screen and (device-width: 768px) {
