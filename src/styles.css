@@ -1,6 +1,7 @@
 body {
     background-image: url('assets/images/colorExplosion.jpg');
     background-size: cover;
+    background-repeat:no-repeat;
     padding: 4em 0;
     font-family: 'Raleway';
 }
@@ -165,4 +166,9 @@ body {
     }
 
     .cta-btn{margin-left:20%;}
+
+    input#location {
+        margin-bottom:5px;
+        text-align:center;
+    }
 }
