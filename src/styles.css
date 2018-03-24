@@ -51,6 +51,8 @@ body {
     float:right;
     margin-right: 10%;
     margin-top:50px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
 }
 
 .forecast p {
