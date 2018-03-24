@@ -18,3 +18,11 @@ textarea{
 #createArt{
 	width:100%;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 374px){
+    .article-container[_ngcontent-c5] {width: 98%;}
+}
+
+@media only screen and (device-width: 768px) {
+    .article-container[_ngcontent-c5] {width: 98%;}
+}
