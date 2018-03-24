@@ -114,6 +114,10 @@
       padding: 20px 30px;
       z-index: 20;
   }
+
+  span.navbar-toggler-icon{
+    margin-top:-20px;
+  }
     
 }
   
