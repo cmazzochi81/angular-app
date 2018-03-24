@@ -13,7 +13,7 @@
 
 	nav{padding:20px;}
     .navbar-brand {
-    	font-size: 1rem;
+    	font-size: .96rem;
     	width:70%;
     	border:2px solid #fff;
     	margin-right:0px;
@@ -29,12 +29,7 @@
 
 	button{
 		border: 1px solid #fff;
-	}
-
-	span.navbar-toggler-icon{
-    margin-top:-20px;
-  }
-    
+	}   
 }
 
 @media only screen and (device-width: 768px) {
