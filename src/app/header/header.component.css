@@ -9,11 +9,19 @@
     border: 2px solid #000;
 }
 
+@media only screen and (device-width: 768px) {
+	.add-btn[_ngcontent-c2] {
+	    background-color: #d2d2d2;
+	    padding: 7px 12px;
+	    margin: 20px 7px 20px 0px;
+	    display: inline-block;
+	    font-size: 10pt;
+	}
+}
 @media only screen and (min-width: 1200px){
 	.row {
 		margin-right:0px !important;
 		margin-left:0px !important;
 	}
-
-	}
+}
 

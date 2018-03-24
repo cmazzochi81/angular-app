@@ -137,6 +137,7 @@ body {
 @media only screen and (device-width: 768px) {
     body{
         background: url('assets/images/colorExplosion.jpg') center cover; 
+        background-repeat:none;
     }
     .forecast{
         margin-right:36%;
