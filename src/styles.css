@@ -122,15 +122,14 @@ body {
     .paintingsearch{
         width:100%;
         }
-    .article-container{
-        width:100% !important;
-    }
+    
     .paintinginfo{
         width:100% !important;
     }
 
     .forecast{
-        margin-bottom:20px;
+        width:98%;
+        margin: 20 auto;
     }
 
     input#location {

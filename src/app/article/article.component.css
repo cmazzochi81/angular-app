@@ -1,4 +1,4 @@
-p {margin-top: 3em;}
+p {margin-top: 1em;}
 
 .btns {
     font-size:1em;
@@ -53,3 +53,21 @@ textarea{
 }
 
 .article-container p {color: #737373;}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 374px){
+    #articleTitle{
+    font-size: 1.5em;
+    }
+
+    .article-container{
+        width:98% !important;
+    }
+}
+
+@media only screen and (device-width: 768px) {
+
+    .btns{
+        width:29%;
+        font-size:.9em;
+    }
+}
