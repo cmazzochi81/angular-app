@@ -21,6 +21,11 @@
 	    font-size: 10pt;
 	    width:38%;
 	}
+
+	span.navbar-toggler-icon{
+    margin-top:-20px;
+  }
+    
 }
 
 @media only screen and (device-width: 768px) {
