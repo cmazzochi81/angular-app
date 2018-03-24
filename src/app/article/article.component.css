@@ -18,6 +18,8 @@ p {margin-top: 1em;}
 	margin:0 auto;
 	background:#fff;
     padding:20px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
 }
 
 #articleTitle{display:block;}

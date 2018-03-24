@@ -131,6 +131,8 @@ body {
         width:98%;
         margin: 20px auto;
         float:none;
+        border: 1px solid transparent;
+        border-radius: .25rem;
     }
 
     input#location {
@@ -141,6 +143,7 @@ body {
     input.forecast-button{
         margin-bottom:5px;
     }
+
 
     
 }
