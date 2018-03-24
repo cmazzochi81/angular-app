@@ -1,6 +1,4 @@
-p {
-    margin-top: 3em;
-}
+p {margin-top: 3em;}
 
 .btns {
     font-size:1em;
@@ -8,7 +6,7 @@ p {
     color:#56758b;
     padding: 7px 12px;
     display:block;
-    float: right;
+    float: left;
     margin-bottom: 10px;
     margin-right:3px;
     width:25%;
@@ -22,9 +20,7 @@ p {
     padding:20px;
 }
 
-#articleTitle{
-        display:block;
-    }
+#articleTitle{display:block;}
 
 textarea{
     margin-left:18.8%;
@@ -56,7 +52,4 @@ textarea{
     color: #0099FF;
 }
 
-.article-container p {
-    color: #737373;
-}
-
+.article-container p {color: #737373;}
