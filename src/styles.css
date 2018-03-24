@@ -132,6 +132,15 @@ body {
     .forecast{
         margin-bottom:20px;
     }
+
+    input#location {
+        margin-bottom:5px;
+        text-align:center;
+    }
+
+    input.forecast-button{
+        margin-bottom:5px;
+    }
 }
 
 @media only screen and (device-width: 768px) {
