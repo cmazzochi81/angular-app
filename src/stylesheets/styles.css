@@ -6,6 +6,16 @@ body {
     font-family: 'Raleway';
 }
 
+.container{
+    margin-top:3%;
+    width:100%;
+}
+
+.appContainer{
+    display:inline-block;
+    float:left;"
+}
+
 #location ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: red;
   }
