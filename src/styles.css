@@ -54,6 +54,7 @@ body {
     margin-top:0px;
     border: 1px solid transparent;
     border-radius: .25rem;
+    float:left;
 }
 
 .forecast p {
