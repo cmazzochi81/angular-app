@@ -23,8 +23,8 @@ body {
     border: 3px solid blue;
 }
 .paintingsearch{
-    /*width:500px;
-    margin: 40px auto; */
+    width:500px;
+    margin: 40px auto; 
 }
 
 .row.expanded{
@@ -48,10 +48,10 @@ body {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    /*width: 250px;*/
-    /*float:right;*/
-    /*margin-right: 10%;*/
-    margin-top:0px;
+    width: 250px;
+    float:right;
+    margin-right: 10%;
+    margin-top:50px;
     border: 1px solid transparent;
     border-radius: .25rem;
 }
@@ -108,7 +108,6 @@ body {
   height:350px;
   overflow:scroll;
   border: 3px solid red;
-  float:left;
 }
 
 #latest_news a:hover {color: #36C;}
