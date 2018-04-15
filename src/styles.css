@@ -136,6 +136,14 @@ body {
   cursor: pointer;
 }
 
+/*Twitter Widget******************************************************/
+.twitter-timeline{
+  height:350px !important;
+  border: 3px solid green !important;
+}
+
+#twitter-widget-0{width:100% !important;}
+
  
 /* Clearfix: http://csscreator.com/attributes/containedfloat.php        */
 /* ******************************************************************** */
