@@ -13,7 +13,7 @@ body {
 
 .appContainer{
     display:inline-block;
-    float:left;"
+    float:left;
 }
 
 #location ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
