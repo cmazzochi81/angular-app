@@ -140,6 +140,7 @@ body {
 .twitter-timeline{
   height:350px !important;
   border: 3px solid green !important;
+  float:right;
 }
 
 #twitter-widget-0{width:100% !important;}
