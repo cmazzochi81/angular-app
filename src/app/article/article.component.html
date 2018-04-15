@@ -1,6 +1,6 @@
 <div *ngIf="article">
 
-    <div class="article-container col-md-6 col-lg-6">
+    <div class="article-container col-md-12 col-lg-12">
             <div class="clearfix">
                     <a routerLink="/edit/{{ article._id}}" class="btns edit">Edit Article</a>
                     <a (click)="deleteArticle(article._id)" class="btns delete">Delete Article</a>
