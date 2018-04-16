@@ -228,4 +228,8 @@ aside{
     #twitterTimeline{
         display:none;
     }
+
+    .btns{
+        width:34%;
+    }
 }
