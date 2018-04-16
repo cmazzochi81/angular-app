@@ -195,6 +195,10 @@ aside{
     }
 
     input.forecast-button{margin-bottom:5px;} 
+
+    .col-sm-12{
+        padding:0px;
+    }
 }
 
 @media only screen and (device-width: 768px) {
