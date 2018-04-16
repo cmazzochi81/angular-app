@@ -6,7 +6,10 @@ body {
     font-family: 'Raleway';
 }
 
-
+aside{
+    border: 2px solid red;
+    float:left;
+}
 #location ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: red;
   }
