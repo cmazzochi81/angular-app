@@ -202,11 +202,10 @@ aside{
     .forecast{
         margin-right:36%;
         margin-bottom:20px;
-        margin-top:60px;
     }
     .paintinginfo{width:75% !important;}
     .article-container{
-        width:75% !important;
+        /*width:75% !important;*/
         margin: 20px auto;
         background-color:#fff;
         padding:20px;
