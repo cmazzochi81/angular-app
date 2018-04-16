@@ -224,4 +224,8 @@ aside{
         margin-bottom:5px;
         text-align:center;
     }
+
+    #twitterTimeline{
+        display:none;
+    }
 }
