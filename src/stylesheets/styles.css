@@ -104,6 +104,11 @@ body {
     font-weight: bold;
 }
 
+.button{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
 /*******RSS FEED***************************************************************/
 #latest_news {
   height:350px;
