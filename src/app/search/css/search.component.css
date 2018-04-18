@@ -93,6 +93,10 @@
     transform: scale(1.2);
   }
 
+  .paintingsearch{
+    padding:0px;
+  }
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 374px){
     
   .search input{font-size: .80rem;}
