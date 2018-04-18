@@ -59,7 +59,7 @@ textarea{
 @media only screen and (min-device-width : 320px) and (max-device-width : 374px){
     #articleTitle{font-size: 1.3em;}
 
-    .article-container[_ngcontent-c5] {width: 98%;}
+    .article-container[_ngcontent-c5] {width: 100%;}
 
     .btns {
         font-size:.8em;

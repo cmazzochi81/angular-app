@@ -14,7 +14,7 @@
 #HomeAddArticleContainer{border: 2px solid #000;}
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 374px){
-	#appName{font-size:1.25rem;}
+	#appName{font-size:1rem;}
 	nav{padding:20px;}
     .navbar-brand {
     	font-size: 1rem;
