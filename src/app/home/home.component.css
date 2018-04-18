@@ -24,6 +24,9 @@ textarea{
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 374px){
     .article-container[_ngcontent-c5] {width: 98%;}
+    .article-container a {
+    font-size: 2.5em;
+    }
 }
 
 @media only screen and (device-width: 768px) {
