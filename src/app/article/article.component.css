@@ -64,6 +64,10 @@ textarea{
         font-size:1em;
     }
 
+    .article-container a {
+        font-size:1em;
+    }
+
     .btns {
         font-size:.8em;
         background:#c2d9e8;
