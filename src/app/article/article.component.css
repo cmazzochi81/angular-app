@@ -64,9 +64,11 @@ textarea{
         font-size:1em;
     }
 
-    .article-container a {
-        font-size:1em;
-    }
+    .article-container[_ngcontent-c5] a[_ngcontent-c5] {
+   
+    font-size: 1em;
+    
+}
 
     .btns {
         font-size:.8em;
