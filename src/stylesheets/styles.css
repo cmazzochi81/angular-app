@@ -178,6 +178,8 @@ aside{
 @media only screen and (min-device-width : 320px) and (max-device-width : 374px){
     .paintinginfo{width:100% !important;}
 
+    .article-container[_ngcontent-c5] a[_ngcontent-c5] {font-size: 1em;}
+
     .forecast{
         width:98%;
         margin: 20px auto;
