@@ -57,7 +57,7 @@ textarea{
 .article-container p {color: #737373;}
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 374px){
-    #articleTitle{font-size: 1em !important;}
+    #articleTitle{font-size: 1.25em;}
 
     .article-container[_ngcontent-c5] {
         width: 100%;
