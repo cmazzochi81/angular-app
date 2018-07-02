@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const article = require('../models/article');
 
 //The MongoDb connection string from Mlab. 
-const db = "mongodb://cmazzochi81:Tonybaj_81@ds023593.mlab.com:23593/blogapp";
+const db = "";
 
 //Establish connection with the database. 
 mongoose.Promise = global.Promise;
